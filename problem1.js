@@ -16,5 +16,5 @@ function cubeNumber(number) {
         return cube;
     }
 }
-let output = cubeNumber(4.3);
+let output = cubeNumber(10);
 console.log(output);
