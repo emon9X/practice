@@ -22,5 +22,5 @@ function matchFinder(string1, string2) {
     }
 }
 
-let output = matchFinder("hate lage batha go 4 ","go 4 ");
+let output = matchFinder("hate lage batha Go 4 ","Go 4 ");
 console.log(output);
