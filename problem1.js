@@ -8,13 +8,13 @@
 
 
 function cubeNumber(number) {
-    if(typeof number !== "number" || number < 0 ) {
-        return "please input positive number only";
+    if(typeof number !== "number") {
+        return "please input number only";
     }
     else {
         let cube = number**3;
         return cube;
     }
 }
-let output = cubeNumber(10);
+let output = cubeNumber("d");
 console.log(output);

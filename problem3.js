@@ -13,7 +13,12 @@ function sortMaker(arr) {
     }
     else {
         if (arr[0]<arr[1]) {
-            return arr.reverse();
+            // return arr.reverse();
+            let bArr = [];
+            for(let i = arr.length-1; i >= 0; i--){
+                bArr.push(arr[i]);
+            }
+            return bArr;
         }
         else if(arr[0] === arr[1]){
             return "equal";
@@ -24,5 +29,5 @@ function sortMaker(arr) {
     }
 }
 
-let output = [2.2,5.5];
+let output = [1.1,1.1];
 console.log(sortMaker(output));
